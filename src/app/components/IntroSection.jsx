@@ -40,7 +40,7 @@ const IntroSection = () => {
                 <div className='col-span-5 place-self-center lg:mt-0 mt-10'>
                     <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
                         <Image
-                            src="/images/portrait.png"
+                            src="/Images/portrait.png"
                             alt="portrait of yonathan camacho"
                             className='absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
                             width={200}
