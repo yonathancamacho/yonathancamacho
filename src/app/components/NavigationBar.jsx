@@ -28,7 +28,7 @@ const NavigationBar = () => {
     const [isNavigationBarOpen, setNavigationBarOpen] = useState(false);
 
     return (
-        <nav className='fixed top-0 left-0 right-0 z-10 bg-gradient-to-b from-[#121212] to-[#121212E6]'>
+        <nav className='fixed top-0 left-0 right-0 z-10 bg-gradient-to-b from-[#121212] to-[#121212CC]'>
             <div className='flex flex-wrap items-center justify-between mx-auto p-8'>
                 {/* <Link href={"/"} className='text-xl md:text-5xl text-white font-semibold'>
                     LOGO
