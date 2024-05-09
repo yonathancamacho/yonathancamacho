@@ -16,6 +16,16 @@
   }
 }
 
+* {
+  cursor: none;
+  overflow: hidden;
+}
+
+button {
+  transition: 0.3s ease;
+  cursor: none;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(

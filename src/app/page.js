@@ -1,3 +1,4 @@
+import Cursor from "./components/Cursor";
 import Image from "next/image";
 import IntroSection from "./components/IntroSection";
 import NavigationBar from "./components/NavigationBar";
@@ -5,6 +6,7 @@ import NavigationBar from "./components/NavigationBar";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-[#121212]">
+      <Cursor />
       <div className="h-screen flex items-center justify-center">
         <NavigationBar />
         <div class="container mx-auto p-12 mt-24">
