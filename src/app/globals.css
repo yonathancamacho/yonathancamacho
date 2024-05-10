@@ -18,6 +18,7 @@
 
 * {
   cursor: none;
+  scroll-behavior: smooth;
 }
 
 button {

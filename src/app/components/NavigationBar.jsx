@@ -33,7 +33,7 @@ const NavigationBar = () => {
                 {/* <Link href={"/"} className='text-xl md:text-5xl text-white font-semibold'>
                     LOGO
                 </Link> */}
-                <NavigationLink href={"/"} title={"Home"} />
+                <NavigationLink href={"#home"} title={"Home"} />
                 <div className='mobile-menu block md:hidden'>
                     {
                         !isNavigationBarOpen ? (

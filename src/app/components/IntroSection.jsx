@@ -6,7 +6,7 @@ import { TypeAnimation } from 'react-type-animation';
 const IntroSection = () => {
     return (
         <section>
-            <div className='grid grid-cols-1 sm:grid-cols-12'>
+            <div id='home' className='grid grid-cols-1 sm:grid-cols-12'>
                 <div className='col-span-7 w-full place-self-center text-center sm:text-left'>
                     <h1 className="text-white text-4xl font-extrabold sm:text-4xl lg:text-6xl mb-4">
                         <TypeAnimation
